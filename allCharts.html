@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Player Win Ratio Chart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="chart.css">
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <style>
+        .line { fill: none; stroke: steelblue; stroke-width: 2; }
+    </style>
+</head>
+<body>
+
+    <div class="chartcontainer">
+        <h1>Player Win Ratio Over Time</h1>
+        <div id="AAA"></div>
+
+        <!-- Include your external JavaScript file here -->
+        <script src="chart_files/win_ratio_d3.js"></script>
+    </div>
+
+    <hr>
+
+    <div class="chartcontainer">
+        <h1>Player average over Time</h1>
+        <div id="BBB"></div>
+
+        <!-- Include your external JavaScript file here -->
+        <script src="chart_files/average_d3.js"></script>
+    </div>
+
+    <hr>
+
+    <div class="chartcontainer">
+        <h1>Checkout success (%)</h1>
+        <div id="CCC"></div>
+
+        <!-- Include your external JavaScript file here -->
+        <script src="chart_files/checkout_percent_d3.js"></script>
+    </div>
+
+    <hr>
+
+    <div class="chartcontainer">
+        <h1>Highest checkout</h1>
+        <div id="DDD"></div>
+
+        <!-- Include your external JavaScript file here -->
+        <script src="chart_files/highest_checkout_d3.js"></script>
+    </div>
+
+
+</body>
+</html>

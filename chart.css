@@ -1,0 +1,18 @@
+body{
+    font-family: Rubik;
+}
+
+.chartcontainer{
+    margin: 0 auto;
+    width:960px;
+    margin-bottom: 50px;
+}
+
+h1{
+    font-weight:700;
+    text-align: center;
+}
+
+.chartcontainer svg{
+    overflow: visible;
+}

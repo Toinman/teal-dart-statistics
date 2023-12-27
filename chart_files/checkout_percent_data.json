@@ -1,0 +1,92 @@
+{
+    "classictony": [
+        {
+            "date": "2023-12-22",
+            "checkoutPercent": 7.32
+        },
+        {
+            "date": "2023-12-26",
+            "checkoutPercent": 7.37
+        },
+        {
+            "date": "2023-12-27",
+            "checkoutPercent": 7.87
+        }
+    ],
+    "jantani": [
+        {
+            "date": "2023-12-22",
+            "checkoutPercent": 10.23
+        },
+        {
+            "date": "2023-12-26",
+            "checkoutPercent": 9.97
+        },
+        {
+            "date": "2023-12-27",
+            "checkoutPercent": 9.15
+        }
+    ],
+    "tinedec": [
+        {
+            "date": "2023-12-22",
+            "checkoutPercent": 1.82
+        },
+        {
+            "date": "2023-12-26",
+            "checkoutPercent": 1.82
+        },
+        {
+            "date": "2023-12-27",
+            "checkoutPercent": 1.82
+        }
+    ],
+    "oj": [
+        {
+            "date": "2023-12-22",
+            "checkoutPercent": 5.66
+        },
+        {
+            "date": "2023-12-26",
+            "checkoutPercent": 5.66
+        },
+        {
+            "date": "2023-12-27",
+            "checkoutPercent": 5.0
+        }
+    ],
+    "Tom": [
+        {
+            "date": "2023-12-27",
+            "checkoutPercent": 0
+        }
+    ],
+    "kellyteal": [
+        {
+            "date": "2023-12-22",
+            "checkoutPercent": 8.53
+        },
+        {
+            "date": "2023-12-26",
+            "checkoutPercent": 9.19
+        },
+        {
+            "date": "2023-12-27",
+            "checkoutPercent": 9.19
+        }
+    ],
+    "senne": [
+        {
+            "date": "2023-12-22",
+            "checkoutPercent": 3.75
+        },
+        {
+            "date": "2023-12-26",
+            "checkoutPercent": 3.79
+        },
+        {
+            "date": "2023-12-27",
+            "checkoutPercent": 3.65
+        }
+    ]
+}
