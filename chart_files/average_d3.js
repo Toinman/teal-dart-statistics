@@ -7,6 +7,15 @@ fetch('chart_files/average_data.json')
     .catch(error => console.error('Error loading average data:', error));
 
 function createAverageChart(allPlayersData) {
+
+     // Define margins and dimensions for the graph
+     var margin = { top: 30, right: 50, bottom: 30, left: 50 };
+     var fullWidth = 800; // This will be the max-width
+     var fullHeight = 300; // Set the height
+     var width = fullWidth - margin.left - margin.right;
+     var height = fullHeight - margin.top - margin.bottom;
+
+
     // Parse the date / time
     var parseDate = d3.timeParse("%Y-%m-%d");
 
@@ -22,31 +31,31 @@ function createAverageChart(allPlayersData) {
         };
     });
 
-    // Set the dimensions of the canvas / graph
-    var margin = { top: 30, right: 50, bottom: 30, left: 50 },
-        width = 960 - margin.left - margin.right,
-        height = 300 - margin.top - margin.bottom;
-
     // Set the ranges
     var x = d3.scaleTime().range([0, width]);
     var y = d3.scaleLinear().range([height, 0]);
 
+    // Format the date for the x-axis to show month abbreviations
+    var xAxis = d3.axisBottom(x).tickFormat(d3.timeFormat("%b"));
+
     // Define the line for the average chart
     var valueline = d3.line()
         .x(function(d) { return x(d.date); })
-        .y(function(d) { return y(d.average); });  // Use 'average' instead of 'winRatio'
+        .y(function(d) { return y(d.average); }); // Use 'average' instead of 'winRatio'
 
-    // Adds the svg_average canvas
-    var svg_average = d3.select("#BBB")  // Ensure the div ID matches in your HTML
-        .append("svg")
-            .attr("width", width + margin.left + margin.right)
-            .attr("height", height + margin.top + margin.bottom)
-        .append("g")
-            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+    // Create the SVG element and set the viewBox for responsiveness
+    var svg_average = d3.select("#BBB")
+    .append("svg")
+    .attr('viewBox', `0 0 ${fullWidth} ${fullHeight}`)
+    .attr('preserveAspectRatio', 'xMinYMin')
+    .classed("svg-content-responsive", true)
+    .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
     // Scale the range of the data
     x.domain(d3.extent(playersDataArray.flatMap(d => d.values), function(d) { return d.date; }));
-    y.domain([0, d3.max(playersDataArray.flatMap(d => d.values), function(d) { return d.average; })]);
+    // Adjust y-domain to add extra space at the top (10% more)
+    y.domain([0, d3.max(playersDataArray.flatMap(d => d.values), function(d) { return d.average; }) * 1.1]);
 
     // Add the valueline path for each player
     playersDataArray.forEach(function(playerData) {
@@ -58,14 +67,20 @@ function createAverageChart(allPlayersData) {
     });
 
 
-    // Add the X Axis
+    // Add the X Axis with monthly labels
     svg_average.append("g")
-        .attr("transform", "translate(0," + height + ")")
-        .call(d3.axisBottom(x));
+    .attr("transform", "translate(0," + height + ")")
+    .call(xAxis);
 
-    // Add the Y Axis
-    svg_average.append("g")
-        .call(d3.axisLeft(y));
+    // Add the Y Axis and remove the vertical line
+    var yAxis = svg_average.append("g")
+    .call(d3.axisLeft(y).tickSize(0))  // Removes the outer tick line
+    .selectAll(".tick line")
+    .attr("stroke", "lightgrey")  // Makes the tick lines light grey
+    .attr("x2", width);  // Extends the tick lines across the chart
+
+    // Hide the domain line of the Y axis
+    svg_average.select(".domain").remove();
 
     // Create a legend and position it below the chart
     var legend = svg_average.append("g")
