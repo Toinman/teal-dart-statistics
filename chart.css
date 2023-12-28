@@ -2,6 +2,11 @@ body{
     font-family: Rubik;
 }
 
+.message{
+    text-align: center;
+    font-style: 14px;
+}
+
 .chartcontainer{
     margin: 0 auto;
     width:100%;

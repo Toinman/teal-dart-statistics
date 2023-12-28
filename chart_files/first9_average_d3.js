@@ -1,12 +1,12 @@
-// Asynchronously load the win ratio data and create the chart
-fetch('chart_files/win_ratio_data.json')
+// Asynchronously load the first9Average data and create the chart
+fetch('chart_files/first9_average_data.json')
     .then(response => response.json())
     .then(data => {
-        createWinRatioChart(data);
+        createFirst9AverageChart(data);
     })
-    .catch(error => console.error('Error loading win ratio data:', error));
+    .catch(error => console.error('Error loading first9Average data:', error));
 
-function createWinRatioChart(allPlayersData) {
+function createFirst9AverageChart(allPlayersData) {
     // Define margins and dimensions for the graph
     var margin = { top: 30, right: 50, bottom: 30, left: 50 };
     var fullWidth = 800; // This will be the max-width
@@ -36,13 +36,13 @@ function createWinRatioChart(allPlayersData) {
     // Format the date for the x-axis to show month abbreviations
     var xAxis = d3.axisBottom(x).tickFormat(d3.timeFormat("%b"));
 
-    // Define the line for the win ratio chart
+    // Define the line for the first9Average chart
     var valueline = d3.line()
         .x(function(d) { return x(d.date); })
-        .y(function(d) { return y(d.winRatio); });
+        .y(function(d) { return y(d.first9Average); });
 
     // Create the SVG element and set the viewBox for responsiveness
-    var svg_winRatio = d3.select("#AAA") // Ensure this ID matches your HTML
+    var svg_first9Average = d3.select("#dart9average") // Change the ID if necessary
         .append("svg")
         .attr('viewBox', `0 0 ${fullWidth} ${fullHeight}`)
         .attr('preserveAspectRatio', 'xMinYMin')
@@ -52,11 +52,11 @@ function createWinRatioChart(allPlayersData) {
 
     // Scale the range of the data
     x.domain(d3.extent(playersDataArray.flatMap(d => d.values), function(d) { return d.date; }));
-    y.domain([0, d3.max(playersDataArray.flatMap(d => d.values), function(d) { return d.winRatio; }) * 1.1]);
+    y.domain([0, d3.max(playersDataArray.flatMap(d => d.values), function(d) { return d.first9Average; }) * 1.1]);
 
     // Add the valueline path for each player
     playersDataArray.forEach(function(playerData) {
-        svg_winRatio.append("path")
+        svg_first9Average.append("path")
             .data([playerData.values])
             .attr("class", "line")
             .style("stroke", playerData.color)
@@ -64,21 +64,21 @@ function createWinRatioChart(allPlayersData) {
     });
 
     // Add the X Axis with monthly labels
-    svg_winRatio.append("g")
+    svg_first9Average.append("g")
         .attr("transform", "translate(0," + height + ")")
         .call(xAxis);
 
     // Add the Y Axis and remove the vertical line
-    svg_winRatio.append("g")
+    var yAxis = svg_first9Average.append("g")
         .call(d3.axisLeft(y).tickSize(0))
         .selectAll(".tick line")
         .attr("stroke", "lightgrey")
         .attr("x2", width);
-    svg_winRatio.select(".domain").remove();
+    svg_first9Average.select(".domain").remove();
 
-    // LEGEND SECTIONS
+     // LEGEND SECTIONS
     // Create a legend and position it initially below the chart
-    var legend = svg_winRatio.append("g")
+    var legend = svg_first9Average.append("g")
         .attr("class", "legend");
 
     var legendItem = legend.selectAll(".legend-item")
@@ -121,6 +121,4 @@ function createWinRatioChart(allPlayersData) {
 
     // Position the legend below the chart
     legend.attr("transform", "translate(0," + (height + margin.bottom) + ")");
-
-    // END LEGEND 
 }

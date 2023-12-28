@@ -1,0 +1,120 @@
+{
+    "classictony": [
+        {
+            "date": "2023-12-22",
+            "first9Average": 43.65
+        },
+        {
+            "date": "2023-12-26",
+            "first9Average": 44.48
+        },
+        {
+            "date": "2023-12-27",
+            "first9Average": 44.41
+        },
+        {
+            "date": "2023-12-28",
+            "first9Average": 44.62
+        }
+    ],
+    "jantani": [
+        {
+            "date": "2023-12-22",
+            "first9Average": 47.07
+        },
+        {
+            "date": "2023-12-26",
+            "first9Average": 46.3
+        },
+        {
+            "date": "2023-12-27",
+            "first9Average": 46.52
+        },
+        {
+            "date": "2023-12-28",
+            "first9Average": 46.33
+        }
+    ],
+    "tinedec": [
+        {
+            "date": "2023-12-22",
+            "first9Average": 39.14
+        },
+        {
+            "date": "2023-12-26",
+            "first9Average": 39.14
+        },
+        {
+            "date": "2023-12-27",
+            "first9Average": 39.14
+        },
+        {
+            "date": "2023-12-28",
+            "first9Average": 39.14
+        }
+    ],
+    "oj": [
+        {
+            "date": "2023-12-22",
+            "first9Average": 34.97
+        },
+        {
+            "date": "2023-12-26",
+            "first9Average": 34.97
+        },
+        {
+            "date": "2023-12-27",
+            "first9Average": 35.9
+        },
+        {
+            "date": "2023-12-28",
+            "first9Average": 35.32
+        }
+    ],
+    "Tom": [
+        {
+            "date": "2023-12-27",
+            "first9Average": 37
+        },
+        {
+            "date": "2023-12-28",
+            "first9Average": 49
+        }
+    ],
+    "kellyteal": [
+        {
+            "date": "2023-12-22",
+            "first9Average": 41.79
+        },
+        {
+            "date": "2023-12-26",
+            "first9Average": 42.14
+        },
+        {
+            "date": "2023-12-27",
+            "first9Average": 42.14
+        },
+        {
+            "date": "2023-12-28",
+            "first9Average": 42.55
+        }
+    ],
+    "senne": [
+        {
+            "date": "2023-12-22",
+            "first9Average": 42.86
+        },
+        {
+            "date": "2023-12-26",
+            "first9Average": 42.82
+        },
+        {
+            "date": "2023-12-27",
+            "first9Average": 42.51
+        },
+        {
+            "date": "2023-12-28",
+            "first9Average": 42.59
+        }
+    ]
+}

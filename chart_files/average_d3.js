@@ -82,39 +82,51 @@ function createAverageChart(allPlayersData) {
     // Hide the domain line of the Y axis
     svg_average.select(".domain").remove();
 
-    // Create a legend and position it below the chart
+     // LEGEND SECTIONS -------------------------------------
+    // Create a legend and position it initially below the chart
     var legend = svg_average.append("g")
-        .attr("class", "legend")
-        .attr("transform", "translate(0," + (height + margin.bottom) + ")");
+        .attr("class", "legend");
 
     var legendItem = legend.selectAll(".legend-item")
         .data(playersDataArray)
         .enter().append("g")
         .attr("class", "legend-item");
 
-    // Track the width of the legend to center it later
-    var legendWidth = 0;
+    var legendXOffset = 0;
+    var legendYOffset = 0;
+    var lineHeight = 20; // Height of each legend line
 
-    // Add colored rectangles and text for each legend item
-    legendItem.append("rect")
-        .attr("x", function(d, i) { return i * 100; }) // Horizontal spacing of 100px between items
-        .attr("y", 0)
-        .attr("width", 18)
-        .attr("height", 18)
-        .style("fill", function(d) { return d.color; });
+    // Append rectangles and text for each legend item and adjust their positions
+    legendItem.each(function(d, i) {
+        var item = d3.select(this);
+        var textWidth = item.append("text")
+            .attr("x", legendXOffset + 24)
+            .attr("y", legendYOffset + 9)
+            .attr("dy", ".35em")
+            .style("text-anchor", "start")
+            .text(d.name)
+            .node().getBBox().width;
 
-    legendItem.append("text")
-        .attr("x", function(d, i) { return i * 100 + 24; }) // Align text with its corresponding rectangle
-        .attr("y", 9)
-        .attr("dy", ".35em")
-        .style("text-anchor", "start")
-        .text(function(d) { return d.name; })
-        .each(function() {
-            legendWidth += this.getBBox().width + 100; // Update total width
-        });
+        item.insert("rect", "text")
+            .attr("x", legendXOffset)
+            .attr("y", legendYOffset)
+            .attr("width", 18)
+            .attr("height", 18)
+            .style("fill", d.color);
 
-    // Center the legend by adjusting its horizontal position
-    legend.attr("transform", "translate(" + (width / 2 - legendWidth / 2) + "," + (height + margin.bottom) + ")");
+        legendXOffset += textWidth + 44; // Rectangle width + text width + spacing
+
+        if (legendXOffset > width) {
+            // Move to next line if exceeding the chart width
+            legendXOffset = 0;
+            legendYOffset += lineHeight;
+            item.attr("transform", "translate(" + legendXOffset + "," + legendYOffset + ")");
+            legendXOffset += textWidth + 44; // Reset offset for the next line
+        }
+    });
+
+    // Position the legend below the chart
+    legend.attr("transform", "translate(0," + (height + margin.bottom) + ")");
 
 }
 

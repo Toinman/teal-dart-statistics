@@ -1,111 +1,124 @@
-// Asynchronously load the data and create the chart
+// Asynchronously load the checkout percent data and create the chart
 fetch('chart_files/checkout_percent_data.json')
     .then(response => response.json())
     .then(data => {
-        createCheckoutRatioChart(data);
+        createCheckoutPercentChart(data);
     })
-    .catch(error => console.error('Error loading win ratio data:', error));
+    .catch(error => console.error('Error loading checkout percent data:', error));
 
-function createCheckoutRatioChart(allPlayersData) {
+function createCheckoutPercentChart(allPlayersData) {
+    // Define margins and dimensions for the graph
+    var margin = { top: 30, right: 50, bottom: 30, left: 50 };
+    var fullWidth = 800; // This will be the max-width
+    var fullHeight = 300; // Set the height
+    var width = fullWidth - margin.left - margin.right;
+    var height = fullHeight - margin.top - margin.bottom;
+
     // Parse the date / time
     var parseDate = d3.timeParse("%Y-%m-%d");
 
     // Define a color scale
     var colorScale = d3.scaleOrdinal(d3.schemeCategory10);
 
-    // Check if allPlayersData is an object
-    if (typeof allPlayersData !== 'object' || allPlayersData === null) {
-        console.error('allPlayersData is not an object');
-        return;
-    }
-
     // Convert the object to an array of objects for D3 processing
     var playersDataArray = Object.entries(allPlayersData).map(([name, values], index) => {
         return {
             name,
             values: values.map(d => ({ ...d, date: parseDate(d.date) })),
-            color: colorScale(index) // Assign a color to each player
+            color: colorScale(index)
         };
     });
-
-    // Set the dimensions of the canvas / graph
-    var margin = { top: 30, right: 50, bottom: 30, left: 50 },
-        width = 960 - margin.left - margin.right,
-        height = 300 - margin.top - margin.bottom;
 
     // Set the ranges
     var x = d3.scaleTime().range([0, width]);
     var y = d3.scaleLinear().range([height, 0]);
 
-    // Define the line
+    // Format the date for the x-axis to show month abbreviations
+    var xAxis = d3.axisBottom(x).tickFormat(d3.timeFormat("%b"));
+
+    // Define the line for the checkout percent chart
     var valueline = d3.line()
         .x(function(d) { return x(d.date); })
         .y(function(d) { return y(d.checkoutPercent); });
 
-    // Adds the SVG canvas
-    var svg_checkout = d3.select("#CCC")
+    // Create the SVG element and set the viewBox for responsiveness
+    var svg_checkoutPercent = d3.select("#CCC") // Make sure the ID matches your HTML
         .append("svg")
-            .attr("width", width + margin.left + margin.right)
-            .attr("height", height + margin.top + margin.bottom)
+        .attr('viewBox', `0 0 ${fullWidth} ${fullHeight}`)
+        .attr('preserveAspectRatio', 'xMinYMin')
+        .classed("svg-content-responsive", true)
         .append("g")
-            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
     // Scale the range of the data
     x.domain(d3.extent(playersDataArray.flatMap(d => d.values), function(d) { return d.date; }));
-    y.domain([0, d3.max(playersDataArray.flatMap(d => d.values), function(d) { return d.checkoutPercent; })]);
-
+    y.domain([0, d3.max(playersDataArray.flatMap(d => d.values), function(d) { return d.checkoutPercent; }) * 1.1]);
 
     // Add the valueline path for each player
     playersDataArray.forEach(function(playerData) {
-        svg_checkout.append("path")
+        svg_checkoutPercent.append("path")
             .data([playerData.values])
             .attr("class", "line")
             .style("stroke", playerData.color)
             .attr("d", valueline);
     });
 
-    // Add the X Axis
-    svg_checkout.append("g")
+    // Add the X Axis with monthly labels
+    svg_checkoutPercent.append("g")
         .attr("transform", "translate(0," + height + ")")
-        .call(d3.axisBottom(x));
+        .call(xAxis);
 
-    // Add the Y Axis
-    svg_checkout.append("g")
-        .call(d3.axisLeft(y));
+    // Add the Y Axis and remove the vertical line
+    svg_checkoutPercent.append("g")
+        .call(d3.axisLeft(y).tickSize(0))
+        .selectAll(".tick line")
+        .attr("stroke", "lightgrey")
+        .attr("x2", width);
+    svg_checkoutPercent.select(".domain").remove();
 
-    // Create a legend and position it below the chart
-    var legend = svg_checkout.append("g")
-        .attr("class", "legend")
-        .attr("transform", "translate(0," + (height + margin.bottom) + ")");
+     // LEGEND SECTIONS
+    // Create a legend and position it initially below the chart
+    var legend = svg_checkoutPercent.append("g")
+        .attr("class", "legend");
 
     var legendItem = legend.selectAll(".legend-item")
         .data(playersDataArray)
         .enter().append("g")
         .attr("class", "legend-item");
 
-    // Track the width of the legend to center it later
-    var legendWidth = 0;
+    var legendXOffset = 0;
+    var legendYOffset = 0;
+    var lineHeight = 20; // Height of each legend line
 
-    // Add colored rectangles and text for each legend item
-    legendItem.append("rect")
-        .attr("x", function(d, i) { return i * 100; }) // Horizontal spacing of 100px between items
-        .attr("y", 0)
-        .attr("width", 18)
-        .attr("height", 18)
-        .style("fill", function(d) { return d.color; });
+    // Append rectangles and text for each legend item and adjust their positions
+    legendItem.each(function(d, i) {
+        var item = d3.select(this);
+        var textWidth = item.append("text")
+            .attr("x", legendXOffset + 24)
+            .attr("y", legendYOffset + 9)
+            .attr("dy", ".35em")
+            .style("text-anchor", "start")
+            .text(d.name)
+            .node().getBBox().width;
 
-    legendItem.append("text")
-        .attr("x", function(d, i) { return i * 100 + 24; }) // Align text with its corresponding rectangle
-        .attr("y", 9)
-        .attr("dy", ".35em")
-        .style("text-anchor", "start")
-        .text(function(d) { return d.name; })
-        .each(function() {
-            legendWidth += this.getBBox().width + 100; // Update total width
-        });
+        item.insert("rect", "text")
+            .attr("x", legendXOffset)
+            .attr("y", legendYOffset)
+            .attr("width", 18)
+            .attr("height", 18)
+            .style("fill", d.color);
 
-    // Center the legend by adjusting its horizontal position
-    legend.attr("transform", "translate(" + (width / 2 - legendWidth / 2) + "," + (height + margin.bottom) + ")");
+        legendXOffset += textWidth + 44; // Rectangle width + text width + spacing
 
+        if (legendXOffset > width) {
+            // Move to next line if exceeding the chart width
+            legendXOffset = 0;
+            legendYOffset += lineHeight;
+            item.attr("transform", "translate(" + legendXOffset + "," + legendYOffset + ")");
+            legendXOffset += textWidth + 44; // Reset offset for the next line
+        }
+    });
 
+    // Position the legend below the chart
+    legend.attr("transform", "translate(0," + (height + margin.bottom) + ")");
 }
