@@ -21,7 +21,7 @@ jobs:
         pip install requests  # Replace with your actual dependencies
 
     - name: Run script
-      run: python path/to/your/script.py
+      run: python private/get-daily-stats-github.py
       env:
         # Set your environment variables here, using GitHub Secrets
         AUTODART_USER_EMAIL: ${{ secrets.AUTODART_USER_EMAIL }}
