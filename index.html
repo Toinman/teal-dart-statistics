@@ -16,7 +16,7 @@
 
     <br>
 
-    ALFA RELEASE! NIET KOMEN KLAGEN OVER DE LAYOUT. DANKU
+    ALPHA RELEASE! NIET KOMEN KLAGEN OVER DE LAYOUT. DANKU
 
     <br>
 
@@ -31,8 +31,16 @@
     <hr>
 
     <div class="chartcontainer">
-        <h1>3-dart average</h1>
+        <h1>Average</h1>
         <div id="BBB" class="chart"></div>
+
+        <!-- Include your external JavaScript file here -->
+        <script src="chart_files/average_d3.js"></script>
+    </div>
+
+    <div class="chartcontainer">
+        <h1>First 9 darts average</h1>
+        <div id="dart9average" class="chart"></div>
 
         <!-- Include your external JavaScript file here -->
         <script src="chart_files/average_d3.js"></script>
@@ -57,6 +65,15 @@
         <!-- Include your external JavaScript file here -->
         <script src="chart_files/highest_checkout_d3.js"></script>
     </div>
+
+    <div id="last-updated"></div>
+    <script>
+        fetch('last_updated.json')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('last-updated').textContent = 'Last Updated: ' + data.last_updated;
+            });
+    </script>
 
 
 </body>
