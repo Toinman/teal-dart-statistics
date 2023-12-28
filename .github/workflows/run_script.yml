@@ -1,4 +1,4 @@
-name: Run Python Script
+name: Fetch all scores and update charts
 
 on:
   workflow_dispatch:  # Allows manual triggering
