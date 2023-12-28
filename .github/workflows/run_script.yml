@@ -1,0 +1,28 @@
+name: Run Python Script
+
+on:
+  workflow_dispatch:  # Allows manual triggering
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest  # Specify the runner
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3'  # Specify your Python version
+
+    - name: Install dependencies
+      run: |
+        pip install requests  # Replace with your actual dependencies
+
+    - name: Run script
+      run: python path/to/your/script.py
+      env:
+        # Set your environment variables here, using GitHub Secrets
+        AUTODART_USER_EMAIL: ${{ secrets.AUTODART_USER_EMAIL }}
+        AUTODART_USER_PASSWORD: ${{ secrets.AUTODART_USER_PASSWORD }}
