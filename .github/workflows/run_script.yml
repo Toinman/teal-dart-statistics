@@ -18,7 +18,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install requests  # Replace with your actual dependencies
+        pip install -r private/requirements.txt  # Adjusted path to requirements.txt
 
     - name: Run script
       run: python private/get-daily-stats-github.py
