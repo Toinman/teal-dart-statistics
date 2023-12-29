@@ -76,7 +76,7 @@ function createWinRatioChart(allPlayersData) {
         .attr("x2", width);
     svg_winRatio.select(".domain").remove();
 
-    // LEGEND SECTIONS
+    // LEGEND SECTIONS -------------------------------------------
     // Create a legend and position it initially below the chart
     var legend = svg_winRatio.append("g")
         .attr("class", "legend");
