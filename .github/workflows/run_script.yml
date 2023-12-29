@@ -34,3 +34,7 @@ jobs:
         git add . 
         git commit -m "Auto data update" -a
         git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    
