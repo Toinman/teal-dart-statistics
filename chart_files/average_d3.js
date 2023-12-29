@@ -82,7 +82,7 @@ function createAverageChart(allPlayersData) {
     // Hide the domain line of the Y axis
     svg_average.select(".domain").remove();
 
-     // LEGEND SECTIONS -------------------------------------
+    // LEGEND SECTIONS -------------------------------------------
     // Create a legend and position it initially below the chart
     var legend = svg_average.append("g")
         .attr("class", "legend");
@@ -94,14 +94,14 @@ function createAverageChart(allPlayersData) {
 
     var legendXOffset = 0;
     var legendYOffset = 0;
-    var lineHeight = 20; // Height of each legend line
+    var lineHeight = 12; // Height of each legend line
 
     // Append rectangles and text for each legend item and adjust their positions
     legendItem.each(function(d, i) {
         var item = d3.select(this);
         var textWidth = item.append("text")
-            .attr("x", legendXOffset + 24)
-            .attr("y", legendYOffset + 9)
+            .attr("x", legendXOffset + 12)
+            .attr("y", legendYOffset + 4)
             .attr("dy", ".35em")
             .style("text-anchor", "start")
             .text(d.name)
@@ -110,11 +110,11 @@ function createAverageChart(allPlayersData) {
         item.insert("rect", "text")
             .attr("x", legendXOffset)
             .attr("y", legendYOffset)
-            .attr("width", 18)
-            .attr("height", 18)
+            .attr("width", 8)
+            .attr("height", 8)
             .style("fill", d.color);
 
-        legendXOffset += textWidth + 44; // Rectangle width + text width + spacing
+        legendXOffset += textWidth + 32; // Rectangle width + text width + spacing
 
         if (legendXOffset > width) {
             // Move to next line if exceeding the chart width
@@ -127,6 +127,8 @@ function createAverageChart(allPlayersData) {
 
     // Position the legend below the chart
     legend.attr("transform", "translate(0," + (height + margin.bottom) + ")");
+
+    // END LEGEND 
 
 }
 

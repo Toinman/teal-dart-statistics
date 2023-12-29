@@ -88,14 +88,14 @@ function createWinRatioChart(allPlayersData) {
 
     var legendXOffset = 0;
     var legendYOffset = 0;
-    var lineHeight = 20; // Height of each legend line
+    var lineHeight = 12; // Height of each legend line
 
     // Append rectangles and text for each legend item and adjust their positions
     legendItem.each(function(d, i) {
         var item = d3.select(this);
         var textWidth = item.append("text")
-            .attr("x", legendXOffset + 24)
-            .attr("y", legendYOffset + 9)
+            .attr("x", legendXOffset + 12)
+            .attr("y", legendYOffset + 4)
             .attr("dy", ".35em")
             .style("text-anchor", "start")
             .text(d.name)
@@ -104,11 +104,11 @@ function createWinRatioChart(allPlayersData) {
         item.insert("rect", "text")
             .attr("x", legendXOffset)
             .attr("y", legendYOffset)
-            .attr("width", 18)
-            .attr("height", 18)
+            .attr("width", 8)
+            .attr("height", 8)
             .style("fill", d.color);
 
-        legendXOffset += textWidth + 44; // Rectangle width + text width + spacing
+        legendXOffset += textWidth + 32; // Rectangle width + text width + spacing
 
         if (legendXOffset > width) {
             // Move to next line if exceeding the chart width

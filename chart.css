@@ -29,3 +29,7 @@ h1{
     height: auto; /* Maintain aspect ratio */
     overflow: visible;
 }
+
+.legend-item{
+    font-size: 12px;
+}

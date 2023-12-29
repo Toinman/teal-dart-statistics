@@ -76,10 +76,10 @@ function createFirst9AverageChart(allPlayersData) {
         .attr("x2", width);
     svg_first9Average.select(".domain").remove();
 
-     // LEGEND SECTIONS
+    // LEGEND SECTIONS -------------------------------------------
     // Create a legend and position it initially below the chart
     var legend = svg_first9Average.append("g")
-        .attr("class", "legend");
+    .attr("class", "legend");
 
     var legendItem = legend.selectAll(".legend-item")
         .data(playersDataArray)
@@ -88,14 +88,14 @@ function createFirst9AverageChart(allPlayersData) {
 
     var legendXOffset = 0;
     var legendYOffset = 0;
-    var lineHeight = 20; // Height of each legend line
+    var lineHeight = 12; // Height of each legend line
 
     // Append rectangles and text for each legend item and adjust their positions
     legendItem.each(function(d, i) {
         var item = d3.select(this);
         var textWidth = item.append("text")
-            .attr("x", legendXOffset + 24)
-            .attr("y", legendYOffset + 9)
+            .attr("x", legendXOffset + 12)
+            .attr("y", legendYOffset + 4)
             .attr("dy", ".35em")
             .style("text-anchor", "start")
             .text(d.name)
@@ -104,11 +104,11 @@ function createFirst9AverageChart(allPlayersData) {
         item.insert("rect", "text")
             .attr("x", legendXOffset)
             .attr("y", legendYOffset)
-            .attr("width", 18)
-            .attr("height", 18)
+            .attr("width", 8)
+            .attr("height", 8)
             .style("fill", d.color);
 
-        legendXOffset += textWidth + 44; // Rectangle width + text width + spacing
+        legendXOffset += textWidth + 32; // Rectangle width + text width + spacing
 
         if (legendXOffset > width) {
             // Move to next line if exceeding the chart width
@@ -121,4 +121,6 @@ function createFirst9AverageChart(allPlayersData) {
 
     // Position the legend below the chart
     legend.attr("transform", "translate(0," + (height + margin.bottom) + ")");
+
+    // END LEGEND 
 }

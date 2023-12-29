@@ -26,3 +26,11 @@ jobs:
         # Set your environment variables here, using GitHub Secrets
         AUTODART_USER_EMAIL: ${{ secrets.AUTODART_USER_EMAIL }}
         AUTODART_USER_PASSWORD: ${{ secrets.AUTODART_USER_PASSWORD }}
+
+    - name: Commit and Push
+      run: |
+        git config --local user.email "struyf+githbub&gmail.com"
+        git config --local user.name "GitHub Action"
+        git add . 
+        git commit -m "Auto data update" -a
+        git push
