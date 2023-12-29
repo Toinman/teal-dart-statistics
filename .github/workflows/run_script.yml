@@ -33,6 +33,5 @@ jobs:
         git config --local user.name "GitHub Action"
         git add . 
         git commit -m "Auto data update" -a
-        git push
-      env:
-        GITHUB_TOKEN: ${{ secrets.TOKEN }}
+        git -c http.extraHeader="AUTHORIZATION: basic ${{ secrets.TOKEN }}" push origin HEAD:main
+
