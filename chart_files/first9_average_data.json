@@ -15,11 +15,19 @@
         {
             "date": "2023-12-28",
             "first9Average": 44.43
+        },
+        {
+            "date": "2023-12-29",
+            "first9Average": 44.43
         }
     ],
     "Bert": [
         {
             "date": "2023-12-28",
+            "first9Average": 36.33
+        },
+        {
+            "date": "2023-12-29",
             "first9Average": 36.33
         }
     ],
@@ -39,6 +47,10 @@
         {
             "date": "2023-12-28",
             "first9Average": 46.51
+        },
+        {
+            "date": "2023-12-29",
+            "first9Average": 47.42
         }
     ],
     "tinedec": [
@@ -56,6 +68,10 @@
         },
         {
             "date": "2023-12-28",
+            "first9Average": 39.14
+        },
+        {
+            "date": "2023-12-29",
             "first9Average": 39.14
         }
     ],
@@ -75,6 +91,10 @@
         {
             "date": "2023-12-28",
             "first9Average": 35.32
+        },
+        {
+            "date": "2023-12-29",
+            "first9Average": 35.32
         }
     ],
     "Tom": [
@@ -84,6 +104,10 @@
         },
         {
             "date": "2023-12-28",
+            "first9Average": 49
+        },
+        {
+            "date": "2023-12-29",
             "first9Average": 49
         }
     ],
@@ -103,6 +127,10 @@
         {
             "date": "2023-12-28",
             "first9Average": 42.62
+        },
+        {
+            "date": "2023-12-29",
+            "first9Average": 42.39
         }
     ],
     "senne": [
@@ -121,6 +149,10 @@
         {
             "date": "2023-12-28",
             "first9Average": 42.7
+        },
+        {
+            "date": "2023-12-29",
+            "first9Average": 42.02
         }
     ]
 }
