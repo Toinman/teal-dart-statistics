@@ -2,6 +2,7 @@ from keycloak import KeycloakOpenID
 import requests
 import os
 import json
+import pytz
 from datetime import datetime
 
 # Configuration details
@@ -130,8 +131,13 @@ if __name__ == "__main__":
     # Call the function to generate chart data
     generate_chart_data(json_directory, chart_files_directory)
 
-    # Generate timestamp
-    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    # Define the Brussels time zone
+    time_zone = pytz.timezone('Europe/Brussels')
+
+    # Generate timestamp in the Brussels time zone
+    timestamp = datetime.now(time_zone).strftime("%Y-%m-%d %H:%M:%S")
+
+    # Rest of your code to save the timestamp
     last_updated_file = os.path.join(base_path, 'last_updated.json')
     with open(last_updated_file, 'w') as f:
         json.dump({'last_updated': timestamp}, f)
