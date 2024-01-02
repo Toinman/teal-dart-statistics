@@ -1,5 +1,5 @@
 body{
-    font-family: Rubik;
+    font-family: "Source Code Pro";
 }
 
 .message{
@@ -17,10 +17,11 @@ body{
 h1{
     font-weight:700;
     text-align: center;
-    font-size: 24px;
+    font-size: 32px;
     margin: 0;
     position: relative;
     top: 20px;
+    font-family: 'Rubik';
 }
 
 .chart svg {
@@ -28,8 +29,14 @@ h1{
     width: 100%; /* Responsive width */
     height: auto; /* Maintain aspect ratio */
     overflow: visible;
+    font-family: 'Source Code Pro';
 }
 
 .legend-item{
     font-size: 12px;
+}
+
+.y-tick-label{
+    color: rgba(0,0,0,0.5);
+    transform: translateX(-8px);
 }
