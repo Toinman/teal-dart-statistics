@@ -600,18 +600,18 @@
     }
   },
   "2024-01-11": {
-    "numLegs": 31,
+    "numLegs": 32,
     "numLegsLast": 0,
-    "totalLegs": 31,
+    "totalLegs": 32,
     "legsWon": 5,
     "soloGame": 0,
     "average": {
-      "dartsThrown": 782,
-      "average": 28.45780051150895,
-      "first9Average": 34.38709677419355,
+      "dartsThrown": 797,
+      "average": 28.426599749058973,
+      "first9Average": 34.135416666666664,
       "checkouts": 158,
       "checkoutPoints": 84,
-      "less60": 238,
+      "less60": 243,
       "plus60": 23,
       "plus100": 1,
       "plus140": 0,
@@ -620,7 +620,7 @@
       "first9Score": 0,
       "checkoutsHit": 158,
       "checkoutPercent": 0.03164556962025317,
-      "checkoutPointsAverage": 6.161290322580645
+      "checkoutPointsAverage": 5.96875
     },
     "averageLast": {
       "dartsThrown": 0,
@@ -640,21 +640,21 @@
       "checkoutPointsAverage": 0
     },
     "best": {
-      "dartsThrown": 782,
+      "dartsThrown": 797,
       "average": 56.4375,
       "first9Average": 55.33333333333333,
       "checkouts": 0,
       "checkoutPoints": 84,
-      "less60": 7.67741935483871,
-      "plus60": 0.7419354838709677,
-      "plus100": 0.03225806451612903,
+      "less60": 7.59375,
+      "plus60": 0.71875,
+      "plus100": 0.03125,
       "plus140": 0,
       "total180": 0,
       "score": 0,
       "first9Score": 0,
       "checkoutsHit": 158,
       "checkoutPercent": 1,
-      "checkoutPointsAverage": 6.161290322580645
+      "checkoutPointsAverage": 5.96875
     },
     "bestLast": {
       "dartsThrown": 0,
