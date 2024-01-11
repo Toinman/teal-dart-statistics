@@ -601,17 +601,17 @@
   },
   "2024-01-11": {
     "numLegs": 100,
-    "numLegsLast": 16,
-    "totalLegs": 116,
+    "numLegsLast": 17,
+    "totalLegs": 117,
     "legsWon": 21,
     "soloGame": 1,
     "average": {
-      "dartsThrown": 2418,
-      "average": 31.800248138957816,
-      "first9Average": 41.8561872909699,
+      "dartsThrown": 2424,
+      "average": 31.81930693069307,
+      "first9Average": 41.929765886287626,
       "checkouts": 433,
       "checkoutPoints": 86,
-      "less60": 713,
+      "less60": 715,
       "plus60": 89,
       "plus100": 10,
       "plus140": 0,
@@ -623,12 +623,12 @@
       "checkoutPointsAverage": 5.05
     },
     "averageLast": {
-      "dartsThrown": 408,
-      "average": 33.10294117647059,
-      "first9Average": 50,
+      "dartsThrown": 423,
+      "average": 32.659574468085104,
+      "first9Average": 48.19607843137255,
       "checkouts": 106,
       "checkoutPoints": 141,
-      "less60": 117,
+      "less60": 122,
       "plus60": 17,
       "plus100": 1,
       "plus140": 1,
@@ -637,15 +637,15 @@
       "first9Score": 0,
       "checkoutsHit": 106,
       "checkoutPercent": 0.03773584905660377,
-      "checkoutPointsAverage": 13.3125
+      "checkoutPointsAverage": 12.529411764705882
     },
     "best": {
-      "dartsThrown": 2418,
+      "dartsThrown": 2424,
       "average": 69.46153846153845,
       "first9Average": 85.33333333333333,
       "checkouts": 0,
       "checkoutPoints": 86,
-      "less60": 7.13,
+      "less60": 7.15,
       "plus60": 0.89,
       "plus100": 0.1,
       "plus140": 0,
@@ -657,21 +657,21 @@
       "checkoutPointsAverage": 5.05
     },
     "bestLast": {
-      "dartsThrown": 408,
+      "dartsThrown": 423,
       "average": 125.25,
       "first9Average": 120,
       "checkouts": 0,
       "checkoutPoints": 141,
-      "less60": 7.3125,
-      "plus60": 1.0625,
-      "plus100": 0.0625,
-      "plus140": 0.0625,
-      "total180": 0.125,
+      "less60": 7.176470588235294,
+      "plus60": 1,
+      "plus100": 0.058823529411764705,
+      "plus140": 0.058823529411764705,
+      "total180": 0.11764705882352941,
       "score": 0,
       "first9Score": 0,
       "checkoutsHit": 106,
       "checkoutPercent": 1,
-      "checkoutPointsAverage": 13.3125
+      "checkoutPointsAverage": 12.529411764705882
     }
   }
 }
