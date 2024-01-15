@@ -39,6 +39,10 @@
         {
             "date": "2024-01-12",
             "first9Average": 43.19
+        },
+        {
+            "date": "2024-01-15",
+            "first9Average": 43.22
         }
     ],
     "classictony": [
@@ -81,6 +85,10 @@
         {
             "date": "2024-01-12",
             "first9Average": 44.7
+        },
+        {
+            "date": "2024-01-15",
+            "first9Average": 44.78
         }
     ],
     "jantani": [
@@ -123,6 +131,10 @@
         {
             "date": "2024-01-12",
             "first9Average": 47.06
+        },
+        {
+            "date": "2024-01-15",
+            "first9Average": 47.0
         }
     ],
     "kellyteal": [
@@ -165,6 +177,10 @@
         {
             "date": "2024-01-12",
             "first9Average": 41.72
+        },
+        {
+            "date": "2024-01-15",
+            "first9Average": 41.72
         }
     ],
     "Bert": [
@@ -194,6 +210,10 @@
         },
         {
             "date": "2024-01-12",
+            "first9Average": 32
+        },
+        {
+            "date": "2024-01-15",
             "first9Average": 32
         }
     ],
@@ -237,6 +257,10 @@
         {
             "date": "2024-01-12",
             "first9Average": 35.76
+        },
+        {
+            "date": "2024-01-15",
+            "first9Average": 35.76
         }
     ],
     "tinedec": [
@@ -279,6 +303,10 @@
         {
             "date": "2024-01-12",
             "first9Average": 40.52
+        },
+        {
+            "date": "2024-01-15",
+            "first9Average": 40.52
         }
     ],
     "Tom": [
@@ -312,6 +340,10 @@
         },
         {
             "date": "2024-01-12",
+            "first9Average": 45.92
+        },
+        {
+            "date": "2024-01-15",
             "first9Average": 45.92
         }
     ]
