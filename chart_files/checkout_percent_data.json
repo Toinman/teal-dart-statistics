@@ -43,6 +43,10 @@
         {
             "date": "2024-01-15",
             "checkoutPercent": 4.95
+        },
+        {
+            "date": "2024-01-16",
+            "checkoutPercent": 4.88
         }
     ],
     "classictony": [
@@ -88,6 +92,10 @@
         },
         {
             "date": "2024-01-15",
+            "checkoutPercent": 7.22
+        },
+        {
+            "date": "2024-01-16",
             "checkoutPercent": 7.22
         }
     ],
@@ -135,6 +143,10 @@
         {
             "date": "2024-01-15",
             "checkoutPercent": 8.95
+        },
+        {
+            "date": "2024-01-16",
+            "checkoutPercent": 8.61
         }
     ],
     "kellyteal": [
@@ -181,6 +193,10 @@
         {
             "date": "2024-01-15",
             "checkoutPercent": 8.15
+        },
+        {
+            "date": "2024-01-16",
+            "checkoutPercent": 8.15
         }
     ],
     "Bert": [
@@ -214,6 +230,10 @@
         },
         {
             "date": "2024-01-15",
+            "checkoutPercent": 9.52
+        },
+        {
+            "date": "2024-01-16",
             "checkoutPercent": 9.52
         }
     ],
@@ -261,6 +281,10 @@
         {
             "date": "2024-01-15",
             "checkoutPercent": 2.98
+        },
+        {
+            "date": "2024-01-16",
+            "checkoutPercent": 2.98
         }
     ],
     "tinedec": [
@@ -307,6 +331,10 @@
         {
             "date": "2024-01-15",
             "checkoutPercent": 1.71
+        },
+        {
+            "date": "2024-01-16",
+            "checkoutPercent": 1.71
         }
     ],
     "Tom": [
@@ -344,6 +372,10 @@
         },
         {
             "date": "2024-01-15",
+            "checkoutPercent": 0
+        },
+        {
+            "date": "2024-01-16",
             "checkoutPercent": 0
         }
     ]
