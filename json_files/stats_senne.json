@@ -1051,18 +1051,18 @@
   },
   "2024-01-19": {
     "numLegs": 100,
-    "numLegsLast": 55,
-    "totalLegs": 155,
+    "numLegsLast": 56,
+    "totalLegs": 156,
     "legsWon": 33,
     "soloGame": 1,
     "average": {
-      "dartsThrown": 2285,
-      "average": 33.92035010940919,
-      "first9Average": 41.553691275167786,
+      "dartsThrown": 2294,
+      "average": 33.94420226678291,
+      "first9Average": 41.50335570469799,
       "checkouts": 383,
       "checkoutPoints": 86,
-      "less60": 653,
-      "plus60": 107,
+      "less60": 654,
+      "plus60": 109,
       "plus100": 8,
       "plus140": 0,
       "total180": 0,
@@ -1073,12 +1073,12 @@
       "checkoutPointsAverage": 5.26
     },
     "averageLast": {
-      "dartsThrown": 1382,
-      "average": 31.289435600578873,
-      "first9Average": 42.157575757575756,
+      "dartsThrown": 1394,
+      "average": 31.293400286944046,
+      "first9Average": 42.017857142857146,
       "checkouts": 265,
       "checkoutPoints": 141,
-      "less60": 412,
+      "less60": 416,
       "plus60": 46,
       "plus100": 5,
       "plus140": 1,
@@ -1087,16 +1087,16 @@
       "first9Score": 0,
       "checkoutsHit": 265,
       "checkoutPercent": 0.045283018867924525,
-      "checkoutPointsAverage": 7.818181818181818
+      "checkoutPointsAverage": 7.678571428571429
     },
     "best": {
-      "dartsThrown": 2285,
+      "dartsThrown": 2294,
       "average": 73.25,
       "first9Average": 85.33333333333333,
       "checkouts": 0,
       "checkoutPoints": 86,
-      "less60": 6.53,
-      "plus60": 1.07,
+      "less60": 6.54,
+      "plus60": 1.09,
       "plus100": 0.08,
       "plus140": 0,
       "total180": 0,
@@ -1107,21 +1107,21 @@
       "checkoutPointsAverage": 5.26
     },
     "bestLast": {
-      "dartsThrown": 1382,
+      "dartsThrown": 1394,
       "average": 125.25,
       "first9Average": 120,
       "checkouts": 0,
       "checkoutPoints": 141,
-      "less60": 7.490909090909091,
-      "plus60": 0.8363636363636363,
-      "plus100": 0.09090909090909091,
-      "plus140": 0.01818181818181818,
-      "total180": 0.03636363636363636,
+      "less60": 7.428571428571429,
+      "plus60": 0.8214285714285714,
+      "plus100": 0.08928571428571429,
+      "plus140": 0.017857142857142856,
+      "total180": 0.03571428571428571,
       "score": 0,
       "first9Score": 0,
       "checkoutsHit": 265,
       "checkoutPercent": 1,
-      "checkoutPointsAverage": 7.818181818181818
+      "checkoutPointsAverage": 7.678571428571429
     }
   }
 }
