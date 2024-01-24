@@ -71,6 +71,10 @@
         {
             "date": "2024-01-23",
             "checkoutPercent": 5.54
+        },
+        {
+            "date": "2024-01-24",
+            "checkoutPercent": 5.54
         }
     ],
     "classictony": [
@@ -144,6 +148,10 @@
         },
         {
             "date": "2024-01-23",
+            "checkoutPercent": 7.31
+        },
+        {
+            "date": "2024-01-24",
             "checkoutPercent": 7.31
         }
     ],
@@ -219,6 +227,10 @@
         {
             "date": "2024-01-23",
             "checkoutPercent": 11.09
+        },
+        {
+            "date": "2024-01-24",
+            "checkoutPercent": 11.09
         }
     ],
     "kellyteal": [
@@ -293,6 +305,10 @@
         {
             "date": "2024-01-23",
             "checkoutPercent": 7.81
+        },
+        {
+            "date": "2024-01-24",
+            "checkoutPercent": 7.81
         }
     ],
     "Bert": [
@@ -354,6 +370,10 @@
         },
         {
             "date": "2024-01-23",
+            "checkoutPercent": 9.52
+        },
+        {
+            "date": "2024-01-24",
             "checkoutPercent": 9.52
         }
     ],
@@ -429,6 +449,16 @@
         {
             "date": "2024-01-23",
             "checkoutPercent": 2.98
+        },
+        {
+            "date": "2024-01-24",
+            "checkoutPercent": 2.98
+        }
+    ],
+    "Micheal": [
+        {
+            "date": "2024-01-24",
+            "checkoutPercent": 0
         }
     ],
     "tinedec": [
@@ -503,6 +533,10 @@
         {
             "date": "2024-01-23",
             "checkoutPercent": 1.67
+        },
+        {
+            "date": "2024-01-24",
+            "checkoutPercent": 2.38
         }
     ],
     "Tom": [
@@ -568,6 +602,16 @@
         },
         {
             "date": "2024-01-23",
+            "checkoutPercent": 0
+        },
+        {
+            "date": "2024-01-24",
+            "checkoutPercent": 0
+        }
+    ],
+    "Kenneth": [
+        {
+            "date": "2024-01-24",
             "checkoutPercent": 0
         }
     ]
