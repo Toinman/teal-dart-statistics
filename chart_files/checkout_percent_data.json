@@ -79,6 +79,10 @@
         {
             "date": "2024-01-25",
             "checkoutPercent": 2.38
+        },
+        {
+            "date": "2024-01-26",
+            "checkoutPercent": 2.38
         }
     ],
     "Tom": [
@@ -152,6 +156,10 @@
         },
         {
             "date": "2024-01-25",
+            "checkoutPercent": 0
+        },
+        {
+            "date": "2024-01-26",
             "checkoutPercent": 0
         }
     ],
@@ -235,6 +243,10 @@
         {
             "date": "2024-01-25",
             "checkoutPercent": 2.98
+        },
+        {
+            "date": "2024-01-26",
+            "checkoutPercent": 2.98
         }
     ],
     "Micheal": [
@@ -244,6 +256,10 @@
         },
         {
             "date": "2024-01-25",
+            "checkoutPercent": 0
+        },
+        {
+            "date": "2024-01-26",
             "checkoutPercent": 0
         }
     ],
@@ -315,6 +331,10 @@
         {
             "date": "2024-01-25",
             "checkoutPercent": 9.52
+        },
+        {
+            "date": "2024-01-26",
+            "checkoutPercent": 9.52
         }
     ],
     "Kenneth": [
@@ -324,6 +344,10 @@
         },
         {
             "date": "2024-01-25",
+            "checkoutPercent": 0
+        },
+        {
+            "date": "2024-01-26",
             "checkoutPercent": 0
         }
     ],
@@ -407,6 +431,10 @@
         {
             "date": "2024-01-25",
             "checkoutPercent": 5.65
+        },
+        {
+            "date": "2024-01-26",
+            "checkoutPercent": 5.65
         }
     ],
     "kellyteal": [
@@ -488,6 +516,10 @@
         },
         {
             "date": "2024-01-25",
+            "checkoutPercent": 7.56
+        },
+        {
+            "date": "2024-01-26",
             "checkoutPercent": 7.56
         }
     ],
@@ -571,6 +603,10 @@
         {
             "date": "2024-01-25",
             "checkoutPercent": 11.67
+        },
+        {
+            "date": "2024-01-26",
+            "checkoutPercent": 11.67
         }
     ],
     "classictony": [
@@ -653,6 +689,10 @@
         {
             "date": "2024-01-25",
             "checkoutPercent": 7.67
+        },
+        {
+            "date": "2024-01-26",
+            "checkoutPercent": 7.0
         }
     ]
 }
