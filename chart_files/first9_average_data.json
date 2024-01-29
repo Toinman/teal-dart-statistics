@@ -83,6 +83,10 @@
         {
             "date": "2024-01-26",
             "first9Average": 40.07
+        },
+        {
+            "date": "2024-01-29",
+            "first9Average": 40.07
         }
     ],
     "Tom": [
@@ -160,6 +164,10 @@
         },
         {
             "date": "2024-01-26",
+            "first9Average": 45.92
+        },
+        {
+            "date": "2024-01-29",
             "first9Average": 45.92
         }
     ],
@@ -247,6 +255,10 @@
         {
             "date": "2024-01-26",
             "first9Average": 35.76
+        },
+        {
+            "date": "2024-01-29",
+            "first9Average": 35.76
         }
     ],
     "Micheal": [
@@ -260,6 +272,10 @@
         },
         {
             "date": "2024-01-26",
+            "first9Average": 31.96
+        },
+        {
+            "date": "2024-01-29",
             "first9Average": 31.96
         }
     ],
@@ -335,6 +351,10 @@
         {
             "date": "2024-01-26",
             "first9Average": 32
+        },
+        {
+            "date": "2024-01-29",
+            "first9Average": 32
         }
     ],
     "Kenneth": [
@@ -348,6 +368,10 @@
         },
         {
             "date": "2024-01-26",
+            "first9Average": 40.71
+        },
+        {
+            "date": "2024-01-29",
             "first9Average": 40.71
         }
     ],
@@ -435,6 +459,10 @@
         {
             "date": "2024-01-26",
             "first9Average": 41.63
+        },
+        {
+            "date": "2024-01-29",
+            "first9Average": 40.73
         }
     ],
     "kellyteal": [
@@ -520,6 +548,10 @@
         },
         {
             "date": "2024-01-26",
+            "first9Average": 41.12
+        },
+        {
+            "date": "2024-01-29",
             "first9Average": 41.12
         }
     ],
@@ -607,6 +639,10 @@
         {
             "date": "2024-01-26",
             "first9Average": 47.54
+        },
+        {
+            "date": "2024-01-29",
+            "first9Average": 47.73
         }
     ],
     "classictony": [
@@ -692,6 +728,10 @@
         },
         {
             "date": "2024-01-26",
+            "first9Average": 44.83
+        },
+        {
+            "date": "2024-01-29",
             "first9Average": 44.83
         }
     ]
