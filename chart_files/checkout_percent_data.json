@@ -1,4 +1,360 @@
 {
+    "Bert": [
+        {
+            "date": "2023-12-28",
+            "checkoutPercent": 9.52
+        },
+        {
+            "date": "2023-12-29",
+            "checkoutPercent": 9.52
+        },
+        {
+            "date": "2023-12-30",
+            "checkoutPercent": 9.52
+        },
+        {
+            "date": "2024-01-08",
+            "checkoutPercent": 9.52
+        },
+        {
+            "date": "2024-01-10",
+            "checkoutPercent": 9.52
+        },
+        {
+            "date": "2024-01-11",
+            "checkoutPercent": 9.52
+        },
+        {
+            "date": "2024-01-12",
+            "checkoutPercent": 9.52
+        },
+        {
+            "date": "2024-01-15",
+            "checkoutPercent": 9.52
+        },
+        {
+            "date": "2024-01-16",
+            "checkoutPercent": 9.52
+        },
+        {
+            "date": "2024-01-17",
+            "checkoutPercent": 9.52
+        },
+        {
+            "date": "2024-01-18",
+            "checkoutPercent": 9.52
+        },
+        {
+            "date": "2024-01-19",
+            "checkoutPercent": 9.52
+        },
+        {
+            "date": "2024-01-20",
+            "checkoutPercent": 9.52
+        },
+        {
+            "date": "2024-01-22",
+            "checkoutPercent": 9.52
+        },
+        {
+            "date": "2024-01-23",
+            "checkoutPercent": 9.52
+        },
+        {
+            "date": "2024-01-24",
+            "checkoutPercent": 9.52
+        },
+        {
+            "date": "2024-01-25",
+            "checkoutPercent": 9.52
+        },
+        {
+            "date": "2024-01-26",
+            "checkoutPercent": 9.52
+        },
+        {
+            "date": "2024-01-29",
+            "checkoutPercent": 9.52
+        },
+        {
+            "date": "2024-01-30",
+            "checkoutPercent": 9.52
+        }
+    ],
+    "kellyteal": [
+        {
+            "date": "2023-12-22",
+            "checkoutPercent": 8.53
+        },
+        {
+            "date": "2023-12-26",
+            "checkoutPercent": 9.19
+        },
+        {
+            "date": "2023-12-27",
+            "checkoutPercent": 9.19
+        },
+        {
+            "date": "2023-12-28",
+            "checkoutPercent": 8.77
+        },
+        {
+            "date": "2023-12-29",
+            "checkoutPercent": 8.33
+        },
+        {
+            "date": "2023-12-30",
+            "checkoutPercent": 8.33
+        },
+        {
+            "date": "2024-01-08",
+            "checkoutPercent": 8.15
+        },
+        {
+            "date": "2024-01-10",
+            "checkoutPercent": 8.15
+        },
+        {
+            "date": "2024-01-11",
+            "checkoutPercent": 8.15
+        },
+        {
+            "date": "2024-01-12",
+            "checkoutPercent": 8.15
+        },
+        {
+            "date": "2024-01-15",
+            "checkoutPercent": 8.15
+        },
+        {
+            "date": "2024-01-16",
+            "checkoutPercent": 8.15
+        },
+        {
+            "date": "2024-01-17",
+            "checkoutPercent": 8.15
+        },
+        {
+            "date": "2024-01-18",
+            "checkoutPercent": 7.8
+        },
+        {
+            "date": "2024-01-19",
+            "checkoutPercent": 7.8
+        },
+        {
+            "date": "2024-01-20",
+            "checkoutPercent": 7.8
+        },
+        {
+            "date": "2024-01-22",
+            "checkoutPercent": 7.67
+        },
+        {
+            "date": "2024-01-23",
+            "checkoutPercent": 7.81
+        },
+        {
+            "date": "2024-01-24",
+            "checkoutPercent": 7.56
+        },
+        {
+            "date": "2024-01-25",
+            "checkoutPercent": 7.56
+        },
+        {
+            "date": "2024-01-26",
+            "checkoutPercent": 7.56
+        },
+        {
+            "date": "2024-01-29",
+            "checkoutPercent": 7.56
+        },
+        {
+            "date": "2024-01-30",
+            "checkoutPercent": 7.56
+        }
+    ],
+    "senne": [
+        {
+            "date": "2023-12-22",
+            "checkoutPercent": 3.75
+        },
+        {
+            "date": "2023-12-26",
+            "checkoutPercent": 3.79
+        },
+        {
+            "date": "2023-12-27",
+            "checkoutPercent": 3.65
+        },
+        {
+            "date": "2023-12-28",
+            "checkoutPercent": 4.0
+        },
+        {
+            "date": "2023-12-29",
+            "checkoutPercent": 3.49
+        },
+        {
+            "date": "2023-12-30",
+            "checkoutPercent": 3.49
+        },
+        {
+            "date": "2024-01-08",
+            "checkoutPercent": 3.63
+        },
+        {
+            "date": "2024-01-10",
+            "checkoutPercent": 3.81
+        },
+        {
+            "date": "2024-01-11",
+            "checkoutPercent": 3.94
+        },
+        {
+            "date": "2024-01-12",
+            "checkoutPercent": 4.86
+        },
+        {
+            "date": "2024-01-15",
+            "checkoutPercent": 4.95
+        },
+        {
+            "date": "2024-01-16",
+            "checkoutPercent": 4.9
+        },
+        {
+            "date": "2024-01-17",
+            "checkoutPercent": 4.87
+        },
+        {
+            "date": "2024-01-18",
+            "checkoutPercent": 5.74
+        },
+        {
+            "date": "2024-01-19",
+            "checkoutPercent": 5.54
+        },
+        {
+            "date": "2024-01-20",
+            "checkoutPercent": 5.54
+        },
+        {
+            "date": "2024-01-22",
+            "checkoutPercent": 5.54
+        },
+        {
+            "date": "2024-01-23",
+            "checkoutPercent": 5.54
+        },
+        {
+            "date": "2024-01-24",
+            "checkoutPercent": 5.54
+        },
+        {
+            "date": "2024-01-25",
+            "checkoutPercent": 5.65
+        },
+        {
+            "date": "2024-01-26",
+            "checkoutPercent": 5.65
+        },
+        {
+            "date": "2024-01-29",
+            "checkoutPercent": 6.67
+        },
+        {
+            "date": "2024-01-30",
+            "checkoutPercent": 6.56
+        }
+    ],
+    "Tom": [
+        {
+            "date": "2023-12-27",
+            "checkoutPercent": 0
+        },
+        {
+            "date": "2023-12-28",
+            "checkoutPercent": 0
+        },
+        {
+            "date": "2023-12-29",
+            "checkoutPercent": 0
+        },
+        {
+            "date": "2023-12-30",
+            "checkoutPercent": 0
+        },
+        {
+            "date": "2024-01-08",
+            "checkoutPercent": 0
+        },
+        {
+            "date": "2024-01-10",
+            "checkoutPercent": 0
+        },
+        {
+            "date": "2024-01-11",
+            "checkoutPercent": 0
+        },
+        {
+            "date": "2024-01-12",
+            "checkoutPercent": 0
+        },
+        {
+            "date": "2024-01-15",
+            "checkoutPercent": 0
+        },
+        {
+            "date": "2024-01-16",
+            "checkoutPercent": 0
+        },
+        {
+            "date": "2024-01-17",
+            "checkoutPercent": 0
+        },
+        {
+            "date": "2024-01-18",
+            "checkoutPercent": 0
+        },
+        {
+            "date": "2024-01-19",
+            "checkoutPercent": 0
+        },
+        {
+            "date": "2024-01-20",
+            "checkoutPercent": 0
+        },
+        {
+            "date": "2024-01-22",
+            "checkoutPercent": 0
+        },
+        {
+            "date": "2024-01-23",
+            "checkoutPercent": 0
+        },
+        {
+            "date": "2024-01-24",
+            "checkoutPercent": 0
+        },
+        {
+            "date": "2024-01-25",
+            "checkoutPercent": 0
+        },
+        {
+            "date": "2024-01-26",
+            "checkoutPercent": 0
+        },
+        {
+            "date": "2024-01-29",
+            "checkoutPercent": 0
+        },
+        {
+            "date": "2024-01-30",
+            "checkoutPercent": 0
+        }
+    ],
     "tinedec": [
         {
             "date": "2023-12-22",
@@ -87,73 +443,13 @@
         {
             "date": "2024-01-29",
             "checkoutPercent": 2.38
+        },
+        {
+            "date": "2024-01-30",
+            "checkoutPercent": 2.38
         }
     ],
-    "Tom": [
-        {
-            "date": "2023-12-27",
-            "checkoutPercent": 0
-        },
-        {
-            "date": "2023-12-28",
-            "checkoutPercent": 0
-        },
-        {
-            "date": "2023-12-29",
-            "checkoutPercent": 0
-        },
-        {
-            "date": "2023-12-30",
-            "checkoutPercent": 0
-        },
-        {
-            "date": "2024-01-08",
-            "checkoutPercent": 0
-        },
-        {
-            "date": "2024-01-10",
-            "checkoutPercent": 0
-        },
-        {
-            "date": "2024-01-11",
-            "checkoutPercent": 0
-        },
-        {
-            "date": "2024-01-12",
-            "checkoutPercent": 0
-        },
-        {
-            "date": "2024-01-15",
-            "checkoutPercent": 0
-        },
-        {
-            "date": "2024-01-16",
-            "checkoutPercent": 0
-        },
-        {
-            "date": "2024-01-17",
-            "checkoutPercent": 0
-        },
-        {
-            "date": "2024-01-18",
-            "checkoutPercent": 0
-        },
-        {
-            "date": "2024-01-19",
-            "checkoutPercent": 0
-        },
-        {
-            "date": "2024-01-20",
-            "checkoutPercent": 0
-        },
-        {
-            "date": "2024-01-22",
-            "checkoutPercent": 0
-        },
-        {
-            "date": "2024-01-23",
-            "checkoutPercent": 0
-        },
+    "Kenneth": [
         {
             "date": "2024-01-24",
             "checkoutPercent": 0
@@ -168,6 +464,10 @@
         },
         {
             "date": "2024-01-29",
+            "checkoutPercent": 0
+        },
+        {
+            "date": "2024-01-30",
             "checkoutPercent": 0
         }
     ],
@@ -259,6 +559,10 @@
         {
             "date": "2024-01-29",
             "checkoutPercent": 2.98
+        },
+        {
+            "date": "2024-01-30",
+            "checkoutPercent": 2.98
         }
     ],
     "Micheal": [
@@ -277,282 +581,10 @@
         {
             "date": "2024-01-29",
             "checkoutPercent": 0
-        }
-    ],
-    "Bert": [
-        {
-            "date": "2023-12-28",
-            "checkoutPercent": 9.52
         },
         {
-            "date": "2023-12-29",
-            "checkoutPercent": 9.52
-        },
-        {
-            "date": "2023-12-30",
-            "checkoutPercent": 9.52
-        },
-        {
-            "date": "2024-01-08",
-            "checkoutPercent": 9.52
-        },
-        {
-            "date": "2024-01-10",
-            "checkoutPercent": 9.52
-        },
-        {
-            "date": "2024-01-11",
-            "checkoutPercent": 9.52
-        },
-        {
-            "date": "2024-01-12",
-            "checkoutPercent": 9.52
-        },
-        {
-            "date": "2024-01-15",
-            "checkoutPercent": 9.52
-        },
-        {
-            "date": "2024-01-16",
-            "checkoutPercent": 9.52
-        },
-        {
-            "date": "2024-01-17",
-            "checkoutPercent": 9.52
-        },
-        {
-            "date": "2024-01-18",
-            "checkoutPercent": 9.52
-        },
-        {
-            "date": "2024-01-19",
-            "checkoutPercent": 9.52
-        },
-        {
-            "date": "2024-01-20",
-            "checkoutPercent": 9.52
-        },
-        {
-            "date": "2024-01-22",
-            "checkoutPercent": 9.52
-        },
-        {
-            "date": "2024-01-23",
-            "checkoutPercent": 9.52
-        },
-        {
-            "date": "2024-01-24",
-            "checkoutPercent": 9.52
-        },
-        {
-            "date": "2024-01-25",
-            "checkoutPercent": 9.52
-        },
-        {
-            "date": "2024-01-26",
-            "checkoutPercent": 9.52
-        },
-        {
-            "date": "2024-01-29",
-            "checkoutPercent": 9.52
-        }
-    ],
-    "Kenneth": [
-        {
-            "date": "2024-01-24",
+            "date": "2024-01-30",
             "checkoutPercent": 0
-        },
-        {
-            "date": "2024-01-25",
-            "checkoutPercent": 0
-        },
-        {
-            "date": "2024-01-26",
-            "checkoutPercent": 0
-        },
-        {
-            "date": "2024-01-29",
-            "checkoutPercent": 0
-        }
-    ],
-    "senne": [
-        {
-            "date": "2023-12-22",
-            "checkoutPercent": 3.75
-        },
-        {
-            "date": "2023-12-26",
-            "checkoutPercent": 3.79
-        },
-        {
-            "date": "2023-12-27",
-            "checkoutPercent": 3.65
-        },
-        {
-            "date": "2023-12-28",
-            "checkoutPercent": 4.0
-        },
-        {
-            "date": "2023-12-29",
-            "checkoutPercent": 3.49
-        },
-        {
-            "date": "2023-12-30",
-            "checkoutPercent": 3.49
-        },
-        {
-            "date": "2024-01-08",
-            "checkoutPercent": 3.63
-        },
-        {
-            "date": "2024-01-10",
-            "checkoutPercent": 3.81
-        },
-        {
-            "date": "2024-01-11",
-            "checkoutPercent": 3.94
-        },
-        {
-            "date": "2024-01-12",
-            "checkoutPercent": 4.86
-        },
-        {
-            "date": "2024-01-15",
-            "checkoutPercent": 4.95
-        },
-        {
-            "date": "2024-01-16",
-            "checkoutPercent": 4.9
-        },
-        {
-            "date": "2024-01-17",
-            "checkoutPercent": 4.87
-        },
-        {
-            "date": "2024-01-18",
-            "checkoutPercent": 5.74
-        },
-        {
-            "date": "2024-01-19",
-            "checkoutPercent": 5.54
-        },
-        {
-            "date": "2024-01-20",
-            "checkoutPercent": 5.54
-        },
-        {
-            "date": "2024-01-22",
-            "checkoutPercent": 5.54
-        },
-        {
-            "date": "2024-01-23",
-            "checkoutPercent": 5.54
-        },
-        {
-            "date": "2024-01-24",
-            "checkoutPercent": 5.54
-        },
-        {
-            "date": "2024-01-25",
-            "checkoutPercent": 5.65
-        },
-        {
-            "date": "2024-01-26",
-            "checkoutPercent": 5.65
-        },
-        {
-            "date": "2024-01-29",
-            "checkoutPercent": 6.67
-        }
-    ],
-    "kellyteal": [
-        {
-            "date": "2023-12-22",
-            "checkoutPercent": 8.53
-        },
-        {
-            "date": "2023-12-26",
-            "checkoutPercent": 9.19
-        },
-        {
-            "date": "2023-12-27",
-            "checkoutPercent": 9.19
-        },
-        {
-            "date": "2023-12-28",
-            "checkoutPercent": 8.77
-        },
-        {
-            "date": "2023-12-29",
-            "checkoutPercent": 8.33
-        },
-        {
-            "date": "2023-12-30",
-            "checkoutPercent": 8.33
-        },
-        {
-            "date": "2024-01-08",
-            "checkoutPercent": 8.15
-        },
-        {
-            "date": "2024-01-10",
-            "checkoutPercent": 8.15
-        },
-        {
-            "date": "2024-01-11",
-            "checkoutPercent": 8.15
-        },
-        {
-            "date": "2024-01-12",
-            "checkoutPercent": 8.15
-        },
-        {
-            "date": "2024-01-15",
-            "checkoutPercent": 8.15
-        },
-        {
-            "date": "2024-01-16",
-            "checkoutPercent": 8.15
-        },
-        {
-            "date": "2024-01-17",
-            "checkoutPercent": 8.15
-        },
-        {
-            "date": "2024-01-18",
-            "checkoutPercent": 7.8
-        },
-        {
-            "date": "2024-01-19",
-            "checkoutPercent": 7.8
-        },
-        {
-            "date": "2024-01-20",
-            "checkoutPercent": 7.8
-        },
-        {
-            "date": "2024-01-22",
-            "checkoutPercent": 7.67
-        },
-        {
-            "date": "2024-01-23",
-            "checkoutPercent": 7.81
-        },
-        {
-            "date": "2024-01-24",
-            "checkoutPercent": 7.56
-        },
-        {
-            "date": "2024-01-25",
-            "checkoutPercent": 7.56
-        },
-        {
-            "date": "2024-01-26",
-            "checkoutPercent": 7.56
-        },
-        {
-            "date": "2024-01-29",
-            "checkoutPercent": 7.56
         }
     ],
     "jantani": [
@@ -643,6 +675,10 @@
         {
             "date": "2024-01-29",
             "checkoutPercent": 12.48
+        },
+        {
+            "date": "2024-01-30",
+            "checkoutPercent": 13.02
         }
     ],
     "classictony": [
@@ -733,6 +769,10 @@
         {
             "date": "2024-01-29",
             "checkoutPercent": 6.9
+        },
+        {
+            "date": "2024-01-30",
+            "checkoutPercent": 6.96
         }
     ]
 }
