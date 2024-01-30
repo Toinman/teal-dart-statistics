@@ -1,4 +1,360 @@
 {
+    "Bert": [
+        {
+            "date": "2023-12-28",
+            "first9Average": 36.33
+        },
+        {
+            "date": "2023-12-29",
+            "first9Average": 36.33
+        },
+        {
+            "date": "2023-12-30",
+            "first9Average": 36.33
+        },
+        {
+            "date": "2024-01-08",
+            "first9Average": 36.33
+        },
+        {
+            "date": "2024-01-10",
+            "first9Average": 36.33
+        },
+        {
+            "date": "2024-01-11",
+            "first9Average": 36.33
+        },
+        {
+            "date": "2024-01-12",
+            "first9Average": 32
+        },
+        {
+            "date": "2024-01-15",
+            "first9Average": 32
+        },
+        {
+            "date": "2024-01-16",
+            "first9Average": 32
+        },
+        {
+            "date": "2024-01-17",
+            "first9Average": 32
+        },
+        {
+            "date": "2024-01-18",
+            "first9Average": 32
+        },
+        {
+            "date": "2024-01-19",
+            "first9Average": 32
+        },
+        {
+            "date": "2024-01-20",
+            "first9Average": 32
+        },
+        {
+            "date": "2024-01-22",
+            "first9Average": 32
+        },
+        {
+            "date": "2024-01-23",
+            "first9Average": 32
+        },
+        {
+            "date": "2024-01-24",
+            "first9Average": 32
+        },
+        {
+            "date": "2024-01-25",
+            "first9Average": 32
+        },
+        {
+            "date": "2024-01-26",
+            "first9Average": 32
+        },
+        {
+            "date": "2024-01-29",
+            "first9Average": 32
+        },
+        {
+            "date": "2024-01-30",
+            "first9Average": 32
+        }
+    ],
+    "kellyteal": [
+        {
+            "date": "2023-12-22",
+            "first9Average": 41.79
+        },
+        {
+            "date": "2023-12-26",
+            "first9Average": 42.14
+        },
+        {
+            "date": "2023-12-27",
+            "first9Average": 42.14
+        },
+        {
+            "date": "2023-12-28",
+            "first9Average": 42.62
+        },
+        {
+            "date": "2023-12-29",
+            "first9Average": 42.39
+        },
+        {
+            "date": "2023-12-30",
+            "first9Average": 42.39
+        },
+        {
+            "date": "2024-01-08",
+            "first9Average": 42.26
+        },
+        {
+            "date": "2024-01-10",
+            "first9Average": 42.26
+        },
+        {
+            "date": "2024-01-11",
+            "first9Average": 41.72
+        },
+        {
+            "date": "2024-01-12",
+            "first9Average": 41.72
+        },
+        {
+            "date": "2024-01-15",
+            "first9Average": 41.72
+        },
+        {
+            "date": "2024-01-16",
+            "first9Average": 41.72
+        },
+        {
+            "date": "2024-01-17",
+            "first9Average": 41.51
+        },
+        {
+            "date": "2024-01-18",
+            "first9Average": 41.55
+        },
+        {
+            "date": "2024-01-19",
+            "first9Average": 41.47
+        },
+        {
+            "date": "2024-01-20",
+            "first9Average": 41.47
+        },
+        {
+            "date": "2024-01-22",
+            "first9Average": 41.25
+        },
+        {
+            "date": "2024-01-23",
+            "first9Average": 41.22
+        },
+        {
+            "date": "2024-01-24",
+            "first9Average": 41.23
+        },
+        {
+            "date": "2024-01-25",
+            "first9Average": 41.12
+        },
+        {
+            "date": "2024-01-26",
+            "first9Average": 41.12
+        },
+        {
+            "date": "2024-01-29",
+            "first9Average": 41.12
+        },
+        {
+            "date": "2024-01-30",
+            "first9Average": 41.12
+        }
+    ],
+    "senne": [
+        {
+            "date": "2023-12-22",
+            "first9Average": 42.86
+        },
+        {
+            "date": "2023-12-26",
+            "first9Average": 42.82
+        },
+        {
+            "date": "2023-12-27",
+            "first9Average": 42.51
+        },
+        {
+            "date": "2023-12-28",
+            "first9Average": 42.7
+        },
+        {
+            "date": "2023-12-29",
+            "first9Average": 42.02
+        },
+        {
+            "date": "2023-12-30",
+            "first9Average": 42.02
+        },
+        {
+            "date": "2024-01-08",
+            "first9Average": 42.29
+        },
+        {
+            "date": "2024-01-10",
+            "first9Average": 42.1
+        },
+        {
+            "date": "2024-01-11",
+            "first9Average": 41.86
+        },
+        {
+            "date": "2024-01-12",
+            "first9Average": 43.19
+        },
+        {
+            "date": "2024-01-15",
+            "first9Average": 43.22
+        },
+        {
+            "date": "2024-01-16",
+            "first9Average": 43.93
+        },
+        {
+            "date": "2024-01-17",
+            "first9Average": 42.32
+        },
+        {
+            "date": "2024-01-18",
+            "first9Average": 41.48
+        },
+        {
+            "date": "2024-01-19",
+            "first9Average": 41.47
+        },
+        {
+            "date": "2024-01-20",
+            "first9Average": 41.47
+        },
+        {
+            "date": "2024-01-22",
+            "first9Average": 41.47
+        },
+        {
+            "date": "2024-01-23",
+            "first9Average": 41.47
+        },
+        {
+            "date": "2024-01-24",
+            "first9Average": 41.47
+        },
+        {
+            "date": "2024-01-25",
+            "first9Average": 41.63
+        },
+        {
+            "date": "2024-01-26",
+            "first9Average": 41.63
+        },
+        {
+            "date": "2024-01-29",
+            "first9Average": 40.63
+        },
+        {
+            "date": "2024-01-30",
+            "first9Average": 40.79
+        }
+    ],
+    "Tom": [
+        {
+            "date": "2023-12-27",
+            "first9Average": 37
+        },
+        {
+            "date": "2023-12-28",
+            "first9Average": 49
+        },
+        {
+            "date": "2023-12-29",
+            "first9Average": 49
+        },
+        {
+            "date": "2023-12-30",
+            "first9Average": 49
+        },
+        {
+            "date": "2024-01-08",
+            "first9Average": 49
+        },
+        {
+            "date": "2024-01-10",
+            "first9Average": 49
+        },
+        {
+            "date": "2024-01-11",
+            "first9Average": 49
+        },
+        {
+            "date": "2024-01-12",
+            "first9Average": 45.92
+        },
+        {
+            "date": "2024-01-15",
+            "first9Average": 45.92
+        },
+        {
+            "date": "2024-01-16",
+            "first9Average": 45.92
+        },
+        {
+            "date": "2024-01-17",
+            "first9Average": 45.92
+        },
+        {
+            "date": "2024-01-18",
+            "first9Average": 45.92
+        },
+        {
+            "date": "2024-01-19",
+            "first9Average": 45.92
+        },
+        {
+            "date": "2024-01-20",
+            "first9Average": 45.92
+        },
+        {
+            "date": "2024-01-22",
+            "first9Average": 45.92
+        },
+        {
+            "date": "2024-01-23",
+            "first9Average": 45.92
+        },
+        {
+            "date": "2024-01-24",
+            "first9Average": 45.92
+        },
+        {
+            "date": "2024-01-25",
+            "first9Average": 45.92
+        },
+        {
+            "date": "2024-01-26",
+            "first9Average": 45.92
+        },
+        {
+            "date": "2024-01-29",
+            "first9Average": 45.92
+        },
+        {
+            "date": "2024-01-30",
+            "first9Average": 45.92
+        }
+    ],
     "tinedec": [
         {
             "date": "2023-12-22",
@@ -93,90 +449,26 @@
             "first9Average": 40.07
         }
     ],
-    "Tom": [
-        {
-            "date": "2023-12-27",
-            "first9Average": 37
-        },
-        {
-            "date": "2023-12-28",
-            "first9Average": 49
-        },
-        {
-            "date": "2023-12-29",
-            "first9Average": 49
-        },
-        {
-            "date": "2023-12-30",
-            "first9Average": 49
-        },
-        {
-            "date": "2024-01-08",
-            "first9Average": 49
-        },
-        {
-            "date": "2024-01-10",
-            "first9Average": 49
-        },
-        {
-            "date": "2024-01-11",
-            "first9Average": 49
-        },
-        {
-            "date": "2024-01-12",
-            "first9Average": 45.92
-        },
-        {
-            "date": "2024-01-15",
-            "first9Average": 45.92
-        },
-        {
-            "date": "2024-01-16",
-            "first9Average": 45.92
-        },
-        {
-            "date": "2024-01-17",
-            "first9Average": 45.92
-        },
-        {
-            "date": "2024-01-18",
-            "first9Average": 45.92
-        },
-        {
-            "date": "2024-01-19",
-            "first9Average": 45.92
-        },
-        {
-            "date": "2024-01-20",
-            "first9Average": 45.92
-        },
-        {
-            "date": "2024-01-22",
-            "first9Average": 45.92
-        },
-        {
-            "date": "2024-01-23",
-            "first9Average": 45.92
-        },
+    "Kenneth": [
         {
             "date": "2024-01-24",
-            "first9Average": 45.92
+            "first9Average": 40.71
         },
         {
             "date": "2024-01-25",
-            "first9Average": 45.92
+            "first9Average": 40.71
         },
         {
             "date": "2024-01-26",
-            "first9Average": 45.92
+            "first9Average": 40.71
         },
         {
             "date": "2024-01-29",
-            "first9Average": 45.92
+            "first9Average": 40.71
         },
         {
             "date": "2024-01-30",
-            "first9Average": 45.92
+            "first9Average": 39.85
         }
     ],
     "oj": [
@@ -295,298 +587,6 @@
             "first9Average": 31.96
         }
     ],
-    "Bert": [
-        {
-            "date": "2023-12-28",
-            "first9Average": 36.33
-        },
-        {
-            "date": "2023-12-29",
-            "first9Average": 36.33
-        },
-        {
-            "date": "2023-12-30",
-            "first9Average": 36.33
-        },
-        {
-            "date": "2024-01-08",
-            "first9Average": 36.33
-        },
-        {
-            "date": "2024-01-10",
-            "first9Average": 36.33
-        },
-        {
-            "date": "2024-01-11",
-            "first9Average": 36.33
-        },
-        {
-            "date": "2024-01-12",
-            "first9Average": 32
-        },
-        {
-            "date": "2024-01-15",
-            "first9Average": 32
-        },
-        {
-            "date": "2024-01-16",
-            "first9Average": 32
-        },
-        {
-            "date": "2024-01-17",
-            "first9Average": 32
-        },
-        {
-            "date": "2024-01-18",
-            "first9Average": 32
-        },
-        {
-            "date": "2024-01-19",
-            "first9Average": 32
-        },
-        {
-            "date": "2024-01-20",
-            "first9Average": 32
-        },
-        {
-            "date": "2024-01-22",
-            "first9Average": 32
-        },
-        {
-            "date": "2024-01-23",
-            "first9Average": 32
-        },
-        {
-            "date": "2024-01-24",
-            "first9Average": 32
-        },
-        {
-            "date": "2024-01-25",
-            "first9Average": 32
-        },
-        {
-            "date": "2024-01-26",
-            "first9Average": 32
-        },
-        {
-            "date": "2024-01-29",
-            "first9Average": 32
-        },
-        {
-            "date": "2024-01-30",
-            "first9Average": 32
-        }
-    ],
-    "Kenneth": [
-        {
-            "date": "2024-01-24",
-            "first9Average": 40.71
-        },
-        {
-            "date": "2024-01-25",
-            "first9Average": 40.71
-        },
-        {
-            "date": "2024-01-26",
-            "first9Average": 40.71
-        },
-        {
-            "date": "2024-01-29",
-            "first9Average": 40.71
-        },
-        {
-            "date": "2024-01-30",
-            "first9Average": 40.71
-        }
-    ],
-    "senne": [
-        {
-            "date": "2023-12-22",
-            "first9Average": 42.86
-        },
-        {
-            "date": "2023-12-26",
-            "first9Average": 42.82
-        },
-        {
-            "date": "2023-12-27",
-            "first9Average": 42.51
-        },
-        {
-            "date": "2023-12-28",
-            "first9Average": 42.7
-        },
-        {
-            "date": "2023-12-29",
-            "first9Average": 42.02
-        },
-        {
-            "date": "2023-12-30",
-            "first9Average": 42.02
-        },
-        {
-            "date": "2024-01-08",
-            "first9Average": 42.29
-        },
-        {
-            "date": "2024-01-10",
-            "first9Average": 42.1
-        },
-        {
-            "date": "2024-01-11",
-            "first9Average": 41.86
-        },
-        {
-            "date": "2024-01-12",
-            "first9Average": 43.19
-        },
-        {
-            "date": "2024-01-15",
-            "first9Average": 43.22
-        },
-        {
-            "date": "2024-01-16",
-            "first9Average": 43.93
-        },
-        {
-            "date": "2024-01-17",
-            "first9Average": 42.32
-        },
-        {
-            "date": "2024-01-18",
-            "first9Average": 41.48
-        },
-        {
-            "date": "2024-01-19",
-            "first9Average": 41.47
-        },
-        {
-            "date": "2024-01-20",
-            "first9Average": 41.47
-        },
-        {
-            "date": "2024-01-22",
-            "first9Average": 41.47
-        },
-        {
-            "date": "2024-01-23",
-            "first9Average": 41.47
-        },
-        {
-            "date": "2024-01-24",
-            "first9Average": 41.47
-        },
-        {
-            "date": "2024-01-25",
-            "first9Average": 41.63
-        },
-        {
-            "date": "2024-01-26",
-            "first9Average": 41.63
-        },
-        {
-            "date": "2024-01-29",
-            "first9Average": 40.63
-        },
-        {
-            "date": "2024-01-30",
-            "first9Average": 40.79
-        }
-    ],
-    "kellyteal": [
-        {
-            "date": "2023-12-22",
-            "first9Average": 41.79
-        },
-        {
-            "date": "2023-12-26",
-            "first9Average": 42.14
-        },
-        {
-            "date": "2023-12-27",
-            "first9Average": 42.14
-        },
-        {
-            "date": "2023-12-28",
-            "first9Average": 42.62
-        },
-        {
-            "date": "2023-12-29",
-            "first9Average": 42.39
-        },
-        {
-            "date": "2023-12-30",
-            "first9Average": 42.39
-        },
-        {
-            "date": "2024-01-08",
-            "first9Average": 42.26
-        },
-        {
-            "date": "2024-01-10",
-            "first9Average": 42.26
-        },
-        {
-            "date": "2024-01-11",
-            "first9Average": 41.72
-        },
-        {
-            "date": "2024-01-12",
-            "first9Average": 41.72
-        },
-        {
-            "date": "2024-01-15",
-            "first9Average": 41.72
-        },
-        {
-            "date": "2024-01-16",
-            "first9Average": 41.72
-        },
-        {
-            "date": "2024-01-17",
-            "first9Average": 41.51
-        },
-        {
-            "date": "2024-01-18",
-            "first9Average": 41.55
-        },
-        {
-            "date": "2024-01-19",
-            "first9Average": 41.47
-        },
-        {
-            "date": "2024-01-20",
-            "first9Average": 41.47
-        },
-        {
-            "date": "2024-01-22",
-            "first9Average": 41.25
-        },
-        {
-            "date": "2024-01-23",
-            "first9Average": 41.22
-        },
-        {
-            "date": "2024-01-24",
-            "first9Average": 41.23
-        },
-        {
-            "date": "2024-01-25",
-            "first9Average": 41.12
-        },
-        {
-            "date": "2024-01-26",
-            "first9Average": 41.12
-        },
-        {
-            "date": "2024-01-29",
-            "first9Average": 41.12
-        },
-        {
-            "date": "2024-01-30",
-            "first9Average": 41.12
-        }
-    ],
     "jantani": [
         {
             "date": "2023-12-22",
@@ -678,7 +678,7 @@
         },
         {
             "date": "2024-01-30",
-            "first9Average": 48.78
+            "first9Average": 48.93
         }
     ],
     "classictony": [
@@ -772,7 +772,7 @@
         },
         {
             "date": "2024-01-30",
-            "first9Average": 44.24
+            "first9Average": 44.35
         }
     ]
 }
